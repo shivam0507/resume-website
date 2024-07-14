@@ -4,176 +4,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shivam Gupta - Resume</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f8f9fa;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            background: #fff;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-
-        .header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-
-        .header p {
-            font-size: 1.2rem;
-            color: #666;
-        }
-
-        .section {
-            margin-bottom: 30px;
-        }
-
-        .section h2 {
-            border-bottom: 2px solid #333;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-            font-size: 1.5rem;
-        }
-
-        .download-btn {
-            display: block;
-            width: 100%;
-            text-align: center;
-            margin-top: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Shivam Gupta's Resume</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>Shivam Gupta</h1>
-            <p>Senior Software Engineer</p>
-            <a href="ShivamGuptaResume.pdf" download class="btn btn-primary download-btn">Download Resume</a>
-        </div>
-
+    <div class="fixed-column">
+        <img src="profile-pic.jpg" alt="Profile Picture" class="profile-pic">
+        <h2>Shivam Gupta</h2>
+        <p>Senior Software Engineer</p>
+        <p><strong>Contact:</strong></p>
+        <p>+91-9713897511</p>
+        <p>guptashivam0507@gmail.com</p>
+        <p><a href="https://linkedin.com/in/shivam0507/">LinkedIn</a></p>
+    </div>
+    <div class="scrollable-column">
         <div class="section">
-            <h2>Contact Information</h2>
-            <p>Email: <a href="mailto:guptashivam0507@gmail.com">guptashivam0507@gmail.com</a></p>
-            <p>Phone: +91-9713897511</p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/shivam0507/">linkedin.com/in/shivam0507</a></p>
-            <p>Location: Bengaluru, India</p>
+            <h2 class="section-title">Summary</h2>
+            <p>Senior software engineer with 5+ years of expertise in backend development, database design, and cloud
+                solutions. Skilled in problem-solving, effective communication, and dedicated to fostering diversity and
+                promoting equal opportunities.</p>
         </div>
-
         <div class="section">
-            <h2>Experience</h2>
-            <h3>Senior Software Engineer</h3>
-            <p>Tradesun Inc (Fintech)</p>
-            <p><em>04/2022 - Present, Bengaluru, Ind</em></p>
+            <h2 class="section-title">Experience</h2>
+            <h3>Senior Software Engineer, Tradesun Inc</h3>
+            <p><strong>04/2022 - Present, Bengaluru, Ind</strong></p>
             <ul>
-                <li>Core Extraction Engine Development: Integral member of the technology team, collaborating closely
-                    with the CTO to develop the product's core 'extraction engine'.</li>
-                <li>Trade Rule Engine Innovation: Revolutionized the trade rule engine using AWS services (Lambda, S3,
-                    DynamoDB) for seamless multi-page handling and distributed processing. This innovation optimized
-                    performance and significantly enhanced the customer experience.</li>
-                <li>Swift Parser Development: Built a JAVA-based swift parser capable of reading swift files from any
-                    bank using a customized format. This enhancement increased accuracy and reliability in swift file
+                <li><strong>Core Extraction Engine Development:</strong> Integral member of the technology team,
+                    collaborating closely with the CTO to develop the product's core 'extraction engine'.</li>
+                <li><strong>Trade Rule Engine Innovation:</strong> Revolutionized the trade rule engine using AWS
+                    services (Lambda, S3, DynamoDB) for seamless multi-page handling and distributed processing. This
+                    innovation optimized performance and significantly enhanced the customer experience.</li>
+                <li><strong>Swift Parser Development:</strong> Built a JAVA-based swift parser capable of reading swift
+                    files from any bank using a customized format. This enhancement increased accuracy and reliability
+                    in swift file processing.</li>
+                <li><strong>OCR Pipeline Enhancement:</strong> Improved the OCR pipeline built on Google OCR by creating
+                    comprehensive word dictionary indexes for better text highlighting. This update resulted in greater
+                    accuracy and reliability in OCR processing.</li>
+                <li><strong>Architecture Redesign:</strong> Played a pivotal role in redesigning the architecture of the
+                    entire page processing system using AWS cloud services. This redesign led to significant gains in
+                    efficiency, scalability, and overall system performance.</li>
+                <li><strong>Data Normalization API Design:</strong> Designed a data normalization API using NLP
+                    techniques and frameworks like Spacy. This ensured efficient processing and improved data quality
+                    for seamless integration across diverse platform.</li>
+                <li><strong>Cost Optimization in Document Processing:</strong> Led the optimization of the document
+                    processing architecture, achieving a remarkable 70% reduction in costs through strategic revamping
+                    initiatives.</li>
+            </ul>
+            <h3>Senior Associate Engineer, JP Morgan Chase India Services Pvt Ltd</h3>
+            <p><strong>07/2018 - 03/2022, Mumbai, India</strong></p>
+            <ul>
+                <li><strong>Global Liquidity and Cash Management Transformation:</strong> Worked on a transformation
+                    project for Global Liquidity, leveraging microservices architecture for enhanced scalability and
+                    modularity.</li>
+                <li><strong>API Testing Automation Framework:</strong> Developed an automation framework for API
+                    testing, working closely with engineering team members to analyze system loads and devise
+                    improvement plans.</li>
+                <li><strong>Innovative Performance Improvements:</strong> Implemented strategies that reduced average
+                    meta rates calculation time by 40%.</li>
+                <li><strong>Production Support and Database Management:</strong> Provided robust production support,
+                    ensuring seamless management of relational databases.</li>
+                <li><strong>Bulk Data Re-certification Design:</strong> Independently designed and built a comprehensive
+                    structure for bulk data re-certification.</li>
+                <li><strong>Stream Processing and Batch Job Implementation:</strong> Implemented rate calculation
+                    algorithms using Kafka Streams for real-time data processing and Spring Batch for scheduled batch
                     processing.</li>
-                <li>OCR Pipeline Enhancement: Improved the OCR pipeline built on Google OCR by creating comprehensive
-                    word dictionary indexes for better text highlighting. This update resulted in greater accuracy and
-                    reliability in OCR processing.</li>
-                <li>Architecture Redesign: Played a pivotal role in redesigning the architecture of the entire page
-                    processing system using AWS cloud services. This redesign led to significant gains in efficiency,
-                    scalability, and overall system performance.</li>
-                <li>Data Normalization API Design: Designed a data normalization API using NLP techniques and frameworks
-                    like Spacy. This ensured efficient processing and improved data quality for seamless integration
-                    across diverse platform.</li>
-                <li>Cost Optimization in Document Processing: Led the optimization of the document processing
-                    architecture, achieving a remarkable 70% reduction in costs through strategic revamping initiatives.
-                </li>
             </ul>
-
-            <h3>Senior Associate Engineer</h3>
-            <p>JP Morgan Chase India Services Pvt Ltd</p>
-            <p><em>07/2018 - 03/2022, Mumbai, India</em></p>
+            <h3>Summer Technical Intern, JP Morgan Chase Ind Srv Pvt Ltd</h3>
+            <p><strong>05/2017 - 07/2017, Mumbai, India</strong></p>
             <ul>
-                <li>Global Liquidity and Cash Management Transformation: Worked on a transformation project for Global
-                    Liquidity, leveraging microservices architecture for enhanced scalability and modularity.</li>
-                <li>API Testing Automation Framework: Developed an automation framework for API testing, working closely
-                    with engineering team members to analyze system loads and devise improvement plans.</li>
-                <li>Innovative Performance Improvements: Implemented strategies that reduced average meta rates
-                    calculation time by 40%.</li>
-                <li>Production Support and Database Management: Provided robust production support, ensuring seamless
-                    management of relational databases.</li>
-                <li>Bulk Data Re-certification Design: Independently designed and built a comprehensive structure for
-                    bulk data re-certification.</li>
-                <li>Stream Processing and Batch Job Implementation: Implemented rate calculation algorithms using Kafka
-                    Streams for real-time data processing and Spring Batch for scheduled batch processing.</li>
-            </ul>
-
-            <h3>Summer Technical Intern</h3>
-            <p>JP Morgan Chase Ind Srv Pvt Ltd</p>
-            <p><em>05/2017 - 07/2017, Mumbai, India</em></p>
-            <ul>
-                <li>Reconciliation Framework Development: Developed a reconciliation framework (OCP-SDM Tool) that
-                    improved operations speed by 30%.</li>
-                <li>Full-stack Application Development: Built both client-side and server-side applications and
-                    integrated them with mainstream applications using Single Sign-On (SSO) for permissions-based
-                    capabilities.</li>
-                <li>Process Automation: Developed processes to automate tasks, resulting in a 40% increase in
-                    efficiency.</li>
-                <li>Adherence to Software Development Lifecycle (SDLC): Followed the Software Development Lifecycle
-                    (SDLC) to guide projects from initial build to production. Ensured systematic development, testing,
-                    and deployment processes for successful project completion.</li>
+                <li><strong>Reconciliation Framework Development:</strong> Developed a reconciliation framework (OCP-SDM
+                    Tool) that improved operations speed by 30%.</li>
+                <li><strong>Full-stack Application Development:</strong> Built both client-side and server-side
+                    applications and integrated them with mainstream applications using Single Sign-On (SSO) for
+                    permissions-based capabilities.</li>
+                <li><strong>Process Automation:</strong> Developed processes to automate tasks, resulting in a 40%
+                    increase in efficiency.</li>
+                <li><strong>Adherence to Software Development Lifecycle (SDLC):</strong> Followed the Software
+                    Development Lifecycle (SDLC) to guide projects from initial build to production. Ensured systematic
+                    development, testing, and deployment processes for successful project completion.</li>
             </ul>
         </div>
-
         <div class="section">
-            <h2>Skills</h2>
-            <ul>
-                <li>Automation, AWS, AWS Cloud</li>
-                <li>Debugging, Design Patterns</li>
-                <li>EXCEL, Flask, Git, HTML</li>
-                <li>Ionic, Java, Javascript</li>
-                <li>Lambda, Maven, Node.js</li>
-                <li>Python, Spring Boot, MySQL</li>
-                <li>RESTful API, Docker</li>
-                <li>ElasticSearch, Kafka</li>
-                <li>Object-Oriented Programming</li>
-                <li>Serverless</li>
+            <h2 class="section-title">Skills</h2>
+            <ul class="skills-list">
+                <li><i class="fas fa-cogs"></i> Automation</li>
+                <li><i class="fab fa-aws"></i> AWS Cloud</li>
+                <li><i class="fas fa-bug"></i> Debugging</li>
+                <li><i class="fas fa-project-diagram"></i> Design Patterns</li>
+                <li><i class="fas fa-file-excel"></i> EXCEL</li>
+                <li><i class="fas fa-flask"></i> Flask</li>
+                <li><i class="fab fa-git-alt"></i> Git</li>
+                <li><i class="fab fa-html5"></i> HTML</li>
+                <li><i class="fab fa-ionic"></i> Ionic</li>
+                <li><i class="fab fa-java"></i> Java</li>
+                <li><i class="fab fa-js-square"></i> Javascript</li>
+                <li><i class="fab fa-python"></i> Python</li>
+                <li><i class="fas fa-cube"></i> Docker</li>
+                <li><i class="fab fa-node"></i> Node.js</li>
+                <li><i class="fas fa-database"></i> MySQL</li>
+                <li><i class="fas fa-server"></i> RESTful API</li>
+                <li><i class="fab fa-elasticsearch"></i> ElasticSearch</li>
+                <li><i class="fas fa-stream"></i> Kafka</li>
+                <li><i class="fas fa-code"></i> Object-Oriented Programming</li>
+                <li><i class="fas fa-cloud"></i> Serverless</li>
             </ul>
         </div>
-
         <div class="section">
-            <h2>Volunteering</h2>
-            <h3>App Developer</h3>
-            <p>VCare Foundation (NGO)</p>
-            <p><em>2019 - 2019</em></p>
-            <ul>
-                <li>Developed hybrid web and Android applications featuring user registration, interactive dashboards,
-                    donation tracking, and patient scheduling. These applications ensure a seamless user experience and
-                    enhanced functionality.</li>
-                <li>Play store Link: <a href="https://play.google.com/store/apps/details?id=io.ionic.vcare">VCare
-                        App</a></li>
-            </ul>
+            <h2 class="section-title">Volunteering</h2>
+            <h3>App Developer, VCare Foundation (NGO)</h3>
+            <p><strong>2019</strong></p>
+            <p>Developed hybrid web and Android applications featuring user registration, interactive dashboards,
+                donation tracking, and patient scheduling. These applications ensure a seamless user experience and
+                enhanced functionality.</p>
+            <p>Play store Link: <a href="https://play.google.com/store/apps/details?id=io.ionic.vcare">VCare Foundation
+                    App</a></p>
         </div>
-
         <div class="section">
-            <h2>Education</h2>
-            <p>Bachelor Of Technology</p>
-            <p>Maulana Azad National Institute of Technology Bhopal</p>
-            <p><em>07/2014 - 06/2018</em></p>
+            <h2 class="section-title">Education</h2>
+            <h3>Bachelor of Technology, Maulana Azad National Institute of Technology Bhopal</h3>
+            <p><strong>07/2014 - 06/2018, Bhopal</strong></p>
             <p>GPA: 8.25/10</p>
         </div>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
